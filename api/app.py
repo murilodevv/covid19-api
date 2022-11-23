@@ -12,7 +12,6 @@ class Covid19:
         page = requests.request('GET', url, headers={f'X-Api-Key':f'{self.api_key}'})
         print(page.json())
 
-
 if __name__ == '__main__':
     
     api_key = input("Enter your API Ninjas API key (api-ninjas.com): ")
